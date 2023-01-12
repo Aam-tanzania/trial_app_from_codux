@@ -1,11 +1,62 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
-    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+        'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.head3 {
+    display: block;
+    overflow: auto;
+}
+
+.header {
+    display: inline-block;
+    overflow: auto;
+    height: 50px;
+    width: 926px;
+    text-transform: capitalize;
+    text-shadow: -0.03px 1px black;
+}
+
+.headerMenu {
+    display: flex;
+    overflow: auto;
+    flex-direction: row;
+    background-color: #50B689;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+    height: 50px;
+}
+
+.btn {
+    display: block;
+    overflow: auto;
+    border: 0px solid black;
+    width: 80px;
+    height: 30px;
+    margin: 8px;
+    font-variant: common-ligatures;
+    border-radius: 20px;
+    opacity: 1;
+    background-color: #F9F3E4;
+    flex-direction: row;
+}
+
+.LeftOption {
+    display: inline-block;
+    height: 150px;
+    flex-direction: row;
+    align-items: center;
+    width: 300px;
 }
